@@ -19,7 +19,7 @@ let myTimeStamp = Date.now()
 
 // console.log(Math.floor(Date.now()/1000));
 
-
+// time 3:11 last pause
 
 
 
