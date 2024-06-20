@@ -48,12 +48,33 @@ const user =[
 ]
 
 user[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasownproperty('isLoggedIn'));
+
+
+const course ={
+    coursename: "js in hindi",
+    price: "999",
+    courseTeacher : "Hitesh ch"
+
+}
+
+// course.courseTeacher
+
+const {courseTeacher: Teacher} = course /* distructure courseTecher to teacher only*/
+
+console.log(Teacher);
+
+// { json
+//     "name" : "bhandari",
+//     "coursename": "js in hindi",
+//     "price": "freedom"
+// }
+
 
 
 
