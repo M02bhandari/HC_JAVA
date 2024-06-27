@@ -16,4 +16,27 @@ for (let index = 0; index < array.length; index++) {
 }
 
 */
+// nested function
 
+function one() {
+    const username = " hitesh   "
+function two() {
+    const website = "youtube"
+    console.log(username);
+}        
+// console.log(website);
+
+two()
+    }
+
+    // one()
+
+    if (true) {
+        const username = "bhandari"
+        if (username === "bhandari") {
+            const website = "youtube"
+            console.log(username + website);
+        }
+        // console.log(website); out scope 
+    }
+    // console.log(username); out of scope
