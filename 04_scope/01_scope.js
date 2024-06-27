@@ -40,3 +40,16 @@ two()
         // console.log(website); out scope 
     }
     // console.log(username); out of scope
+
+    // *************Intresting *********
+
+   console.log( addone (5));
+
+    function addone(num) {
+        return num +1 
+    }
+
+    addTwo(5) // function diclearade before function
+   const addTwo  = function (num) {
+    return num + 2 
+   }
